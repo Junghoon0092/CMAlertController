@@ -1,0 +1,6 @@
+framework module CMAlertController {
+  umbrella header "CMAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}

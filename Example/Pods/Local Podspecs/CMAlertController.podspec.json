@@ -1,0 +1,22 @@
+{
+  "name": "CMAlertController",
+  "version": "0.1.0",
+  "summary": "A short description of CMAlertController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CoolMint/CMAlertController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CoolMint": "cjh0092@naver.com"
+  },
+  "source": {
+    "git": "https://github.com/CoolMint/CMAlertController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CMAlertController/Classes/**/*"
+}
