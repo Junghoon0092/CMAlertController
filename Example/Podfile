@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CMAlertController_Tests' do
+  pod 'CMAlertController', :path => '../'
+  
+  
+end
