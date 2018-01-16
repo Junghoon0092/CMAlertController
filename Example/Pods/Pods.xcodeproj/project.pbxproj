@@ -12,6 +12,8 @@
 		0DDBC4E08CDF0E592A329BDA3916B5BF /* Pods-CMAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A556418CCF7C42AAFDFBFDDEEF739BA3 /* Pods-CMAlertController_Tests-dummy.m */; };
 		1AB313020D48C2C6B6607ACA3A501C79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6138484268FF828A88BEC8F53509363D /* CMAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AFE6DB965EC53877D578F93AF0C92C /* CMAlertController-dummy.m */; };
+		75541EF9200E271500F8012C /* CMAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75541EF7200E271500F8012C /* CMAlert.swift */; };
+		75541EFA200E271500F8012C /* ViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75541EF8200E271500F8012C /* ViewTransition.swift */; };
 		8FFB716E895C1CFA449723B937FA751E /* CMAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5FC2CBEA92CD844E620A0E5F33B0D6 /* CMAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1491967638E6768F5F91F6F79C64C23 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739039FF546F6008290763A44A65FA69 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
@@ -27,19 +29,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0329CAA28B3662E8D0B37845A8C8975C /* Pods_CMAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CMAlertController_Tests.framework; path = "Pods-CMAlertController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0329CAA28B3662E8D0B37845A8C8975C /* Pods_CMAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CMAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED54A1C5DA214C187F9FD6ABDCCF39D /* CMAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CMAlertController.xcconfig; sourceTree = "<group>"; };
 		5756CAD24DBF8D8EFA428854323B3C4D /* Pods-CMAlertController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMAlertController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		681C0BD01F0108B0DB3A8A9F5433D508 /* CMAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CMAlertController.framework; path = CMAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		681C0BD01F0108B0DB3A8A9F5433D508 /* CMAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CMAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9A1F3F3381EFACDBED8AE20B35A6AA /* Pods-CMAlertController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CMAlertController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6B5FC2CBEA92CD844E620A0E5F33B0D6 /* CMAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMAlertController-umbrella.h"; sourceTree = "<group>"; };
 		6D45D7E9295C96F1B181EC4C6676FADA /* Pods-CMAlertController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CMAlertController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		739039FF546F6008290763A44A65FA69 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		7EFA9832E45E62D740766F5D4BAEDC9C /* CMAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CMAlertController.modulemap; sourceTree = "<group>"; };
+		75541EF7200E271500F8012C /* CMAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMAlert.swift; sourceTree = "<group>"; };
+		75541EF8200E271500F8012C /* ViewTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTransition.swift; sourceTree = "<group>"; };
+		7EFA9832E45E62D740766F5D4BAEDC9C /* CMAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CMAlertController.modulemap; sourceTree = "<group>"; };
 		8ED6B5C6CEB61DB4BFD41A4AF7BDEE27 /* Pods-CMAlertController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CMAlertController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FA54884D0AD7560C0952FE26E4E7C8E /* Pods-CMAlertController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CMAlertController_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FA54884D0AD7560C0952FE26E4E7C8E /* Pods-CMAlertController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CMAlertController_Tests.modulemap"; sourceTree = "<group>"; };
 		A0147B1752E53DCDF2517AA35B9610A5 /* CMAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMAlertController-prefix.pch"; sourceTree = "<group>"; };
 		A397E9649F9E4484B66969348BD19A0D /* Pods-CMAlertController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CMAlertController_Tests-resources.sh"; sourceTree = "<group>"; };
 		A556418CCF7C42AAFDFBFDDEEF739BA3 /* Pods-CMAlertController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CMAlertController_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -75,7 +79,6 @@
 			children = (
 				F288723F8517DD59EAAE703EEAE4F367 /* Classes */,
 			);
-			name = CMAlertController;
 			path = CMAlertController;
 			sourceTree = "<group>";
 		};
@@ -176,9 +179,10 @@
 		F288723F8517DD59EAAE703EEAE4F367 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				75541EF7200E271500F8012C /* CMAlert.swift */,
+				75541EF8200E271500F8012C /* ViewTransition.swift */,
 				739039FF546F6008290763A44A65FA69 /* ReplaceMe.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -272,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6138484268FF828A88BEC8F53509363D /* CMAlertController-dummy.m in Sources */,
+				75541EFA200E271500F8012C /* ViewTransition.swift in Sources */,
+				75541EF9200E271500F8012C /* CMAlert.swift in Sources */,
 				C1491967638E6768F5F91F6F79C64C23 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
